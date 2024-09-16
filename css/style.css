@@ -1,15 +1,90 @@
-*{margin: 0;
-padding: 0;}
+*{
+    margin: 0;
+    padding: 0;
+} 
 
-body{
+body {
     background-color: lightgrey;
 }
-.sfondo-logo{
+
+.sfondo-logo {
     background-color: rgb(255, 255, 255);
-width: auto;
-height: 91px;
+    width: auto;
+    height: 91px;
 }
 
-.logo{
+.logo {
     margin-top: 20px;
 }
+
+.tasti {
+    font-size: 18px;
+}
+
+.simbolo {
+    font-size: 10px;
+}
+
+h3 {
+    font-weight: 100;
+}
+
+.contanitor {
+    background-color: white;
+    width: 1500px;
+    height: 550px;
+    margin: 50px 50px;
+
+}
+
+.button {
+    background-color: lightskyblue;
+}
+
+.elemento1 {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+    border: solid;
+    border-color: greenyellow;
+    border-radius: 51%;
+    padding-inline: center;
+    margin-right: 15px;
+    color: greenyellow;
+}
+.negativo{background-color: white;
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+    border: solid;
+    border-color: rgb(255, 47, 47);
+    border-radius: 51%;
+    padding-inline: center;
+    margin-right: 15px;
+    color: red;
+
+}
+
+.task{
+    margin: 5px 50px ;
+    border-radius: 20%;
+}
+.titolo {
+    margin: 30px 50px;
+}
+
+.elemento2 {
+    background-color: lightskyblue;
+    color: wheat;
+    border-radius: 10%;
+    margin-left: 15px;
+    font-size: smaller;
+
+}
+
+.elemento3{ background-color: purple;
+    color: white;
+    border-radius: 10%;
+    margin-left: 15px;
+    font-size: smaller;}
