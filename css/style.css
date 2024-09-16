@@ -27,14 +27,14 @@ body {
 
 h3 {
     font-weight: 100;
-    line-height: 1.5; 
+    line-height: 2; 
     font-family: "Poppins", sans-serif;
 }
 
 .contanitor {
     background-color: white;
     width: 1500px;
-    height: 600px;
+    height: 700px;
     margin: auto;
     margin-top: 30px;
     border-radius: 5px;
@@ -45,6 +45,7 @@ h3 {
     background-color: lightskyblue;
     border: none;
     margin: 5px 0px 0px 50px ;
+    padding: 3px;
 }
 hr{
     margin-top: 15px;
@@ -63,6 +64,7 @@ hr{
     margin-left: 50px;
     margin-right: 10px;
     color: greenyellow;
+    padding: 3px 7px;
     
     
 }
@@ -76,14 +78,13 @@ hr{
     padding-inline: center;
     margin-right: 10px;
     color: red;
-    text-align:center;
-
+    padding: 3px;
 }
 
 .task{
     margin: 5px 50px ;
     border-radius: 20px;
-}
+    }
 .titolo {
     margin: 30px 50px;
 }
@@ -95,6 +96,8 @@ hr{
     margin-left: 15px;
     margin-right: 10px;
     font-size:smaller;
+    padding: 3px 7px;
+    font-size: 11px;
     
 
 }
@@ -105,6 +108,8 @@ hr{
     margin-left: 15px;
     margin-right: 10px;
     font-size: smaller;
+    padding: 3px 7px;
+    font-size: 11px;
 }
 
     .elemento-verde {
@@ -114,6 +119,8 @@ hr{
     margin-left: 15px;
     margin-right: 10px;
     font-size: smaller;
+    padding: 3px 7px;
+    font-size: 11px;
 }
 
 .elemento-orange {
@@ -123,6 +130,8 @@ hr{
     margin-left: 15px;
     margin-right: 10px;
     font-size: smaller;
+    padding: 3px 7px;
+    font-size: 11px;
 }
 .elemento-rosa{
     background-color: rgb(216, 91, 216);
@@ -131,7 +140,8 @@ hr{
     margin-left: 15px;
     margin-right: 10px;
     font-size: smaller;
-
+    padding: 3px 7px;
+    font-size: 11px;
 }
 .elemento-lime{
     background-color: rgb(106, 216, 91);
@@ -140,4 +150,6 @@ hr{
     margin-left: 15px;
     margin-right: 10px;
     font-size: smaller;
+    padding: 3px 7px;
+    font-size: 11px;
 }
