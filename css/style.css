@@ -7,6 +7,10 @@ body {
     background-color: rgb(219, 219, 219);
 }
 
+li{
+    list-style: none;
+}
+
 .sfondo-logo {
     background-color: rgb(255, 255, 255);
     width: auto;
@@ -15,6 +19,7 @@ body {
 
 .logo {
     margin-top: 20px;
+    
 }
 
 .tasti {
@@ -33,20 +38,29 @@ h3 {
 
 .contanitor {
     background-color: white;
-    width: 1500px;
-    height: 700px;
+    width: 90%;
     margin: auto;
     margin-top: 30px;
     border-radius: 5px;
-
+    margin-bottom: 30px;
+    padding-bottom: 20px;
 }
-
+.top-contanitor{
+    padding: 10px 50px;
+    border-bottom: solid 1px #ccc;
+}
+.bottom-contanitor{
+    padding: 0 50px;
+}
 .button {
     background-color: lightskyblue;
-    border: none;
-    margin: 10px 0px 0px 50px;
+    border: solid 2px lightskyblue;
     padding: 5px 7px;
     border-radius: 3px;
+}
+.no-background{
+    background: transparent;
+    border-color: #ccc;
 }
 
 .section {
@@ -54,32 +68,24 @@ h3 {
 
 
 }
-
-hr {
-    margin-top: 15px;
-    color: rgba(255, 255, 255, 0);
+.spunta{
+    background-color: white;
+    
+    border: solid;
+    border-radius: 50px;
+    
+    margin-right: 10px;
+    padding: 0 6px;
 }
 
-.elemento1 {
-    background-color: white;
-    margin-left: 50px;
-    border: solid;
+.positivo {
     border-color: greenyellow;
-    border-radius: 50px;
-    margin-left: 50px;
-    margin-right: 10px;
     color: greenyellow;
 }
 
 .negativo {
-    background-color: white;
-    margin-left: 44px;
-    border: solid;
     border-color: rgb(255, 47, 47);
-    border-radius: 50px;
-    margin-right: 10px;
     color: red;
-    padding: 3px;
 }
 
 .task {
@@ -88,7 +94,8 @@ hr {
 }
 
 .titolo {
-    margin: 30px 50px;
+    margin: 30px 0;
+    font-weight: bold;
 }
 
 .elemento2 {
